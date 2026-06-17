@@ -4,7 +4,8 @@ Router(config-line)# password NSBM
 Router(config-line)# login
 Used to identify the device and protect physical console access.  2. Dynamic Routing Protocols (Task 3)RIPv2:PlaintextRouter(config)# router rip
 Router(config-router)# version 2
-Router(config-router)# network
+Router(config-router)# network173.16.0.10
+
 Router(config-router)# no auto-summary
 *   **EIGRP (AS 100):**
     ```text
